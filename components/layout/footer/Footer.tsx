@@ -1,15 +1,15 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 import {
   BiLogoFacebook,
   BiLogoInstagram,
   BiLogoWhatsapp,
-} from 'react-icons/bi';
+} from "react-icons/bi";
 
 function Footer() {
   return (
     <div className="relative flex w-full flex-col items-center bg-black pb-12 pt-12">
-      <div className="grid w-full max-w-7xl grid-cols-2 grid-rows-2 gap-10 pl-12 pr-12 lg:grid-cols-4 lg:grid-rows-1 xl:pl-0 xl:pr-0">
+      <div className="grid w-full max-w-1400 grid-cols-2 grid-rows-2 gap-10 pl-12 pr-12 lg:grid-cols-4 lg:grid-rows-1 xl:pl-0 xl:pr-0">
         <div className="flex flex-col">
           <h1 className="mb-4 text-white">Company</h1>
           <ul className="grid grid-rows-4 gap-2">
@@ -74,7 +74,7 @@ function Footer() {
         </div>
       </div>
       <hr className="mb-10 mt-10 w-full border-gray-700" />
-      <div className="flex w-full max-w-7xl grid-cols-1 grid-rows-2 flex-col gap-4 pl-12 pr-12 text-white lg:grid lg:grid-cols-2 lg:grid-rows-1 xl:pl-0 xl:pr-0">
+      <div className="flex w-full max-w-1400 grid-cols-1 grid-rows-2 flex-col gap-4 pl-12 pr-12 text-white lg:grid lg:grid-cols-2 lg:grid-rows-1 xl:pl-0 xl:pr-0">
         <div className="flex flex-col justify-center gap-3">
           <h1 className="text-xl lg:text-2xl"> Sign up to our newsletter</h1>
           <p className="text-gray-400">
@@ -95,18 +95,18 @@ function Footer() {
             </button>
           </div>
         </div>
-        <div className="flex lg:justify-end">
+        {/* <div className="flex lg:justify-end">
           <Image
             src="/images/sample/googl_ED.jpg"
             alt="Map"
             width={400}
             height={100}
           />
-        </div>
+        </div> */}
       </div>
 
       <hr className="mb-10 mt-10 w-full border-gray-700" />
-      <div className="w-full max-w-7xl pl-12 pr-12 xl:pl-0 xl:pr-0">
+      <div className="w-full max-w-1400 pl-12 pr-12 xl:pl-0 xl:pr-0">
         <p className="text-center text-gray-400">
           Copyright © 2023 All rights reserved | Vinyas Furnitures
         </p>
